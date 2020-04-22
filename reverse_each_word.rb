@@ -1,17 +1,51 @@
 def reverse_each_word(string)
-array = string.split
-reversed_array = []
-  array.each do |word|
-    reversed_array << array.reverse
+  original_array = string.split(" ")
+  return_array = []
+  original_array.each do|string|
+    return_array << string.reverse
   end
-  reversed_array.join(" ")
+  return_array.join(" ")
 end
 
 def reverse_each_word(string)
-array = string.split
-new_array = []
-  array.collect do |word|
-    new_array << array.reverse
+  array = string.split(" ")
+  test_array = []
+  array.collect do|string|
+    test_array << string.reverse 
   end
-  new_array.join(" ")
+  test_array.join(" ")
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def reverse_each_word(string)
+# array = string.split
+# reversed_array = []
+#   array.each do |word|
+#     reversed_array << array.reverse
+#   end
+#   reversed_array.join(" ")
+# end
+#
+# def reverse_each_word(string)
+# array = string.split
+# new_array = []
+#   array.collect do |word|
+#     new_array << array.reverse
+#   end
+#   new_array.join(" ")
+# end
