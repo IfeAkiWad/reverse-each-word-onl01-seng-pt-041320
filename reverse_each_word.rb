@@ -15,20 +15,3 @@ def reverse_each_word(string)
   end
   diff_array.join(" ")
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
