@@ -42,7 +42,7 @@ reversed_array = []
 end
 
 def reverse_each_word(string)
-array = string.split(" ")
+diff_array = string.split(" ")
 new_array = []
   diff_array.collect do |word|
     new_array << diff_array.reverse
