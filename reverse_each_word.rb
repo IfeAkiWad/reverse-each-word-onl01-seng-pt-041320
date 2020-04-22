@@ -3,6 +3,6 @@ array = string.split
 reversed_array = []
   array.each do |word|
     reversed_array << array.reverse
-
   end
+  reversed_array.join(" ")
 end
